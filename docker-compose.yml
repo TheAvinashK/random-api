@@ -1,0 +1,10 @@
+version: '3'
+services:
+  space-api:
+    build: .
+    ports:
+      - "3000:3000" 
+    volumes:
+      - "./user_data:/usr/src/app/user_data"
+    container_name: space-api
+    restart: unless-stopped

@@ -1,0 +1,16 @@
+{
+  "name": "internal-api",
+  "version": "0.1.0",
+  "description": "RESTful API for device to device communication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}
